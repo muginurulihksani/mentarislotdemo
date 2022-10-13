@@ -1,0 +1,53 @@
+ul > li {
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.judul {
+  color: rgb(4, 25, 117);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+a {
+  background: linear-gradient(#fff200 0 0) no-repeat calc(200% - var(--p, 0%)) 100% / 200% var(--p, 0.08em);
+  transition: 0.3s var(--t, 0s), background-position 0.3s calc(0.3s - var(--t, 0s));
+}
+
+a:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+}
+
+.heroes {
+  margin-top: 80px;
+}
+
+.carousel-caption {
+  background: linear-gradient(#021f69 0 0) no-repeat calc(200% - var(--p, 0%)) 100% / 200% var(--p, 0.08em);
+  transition: 0.3s var(--t, 0s), background-position 0.3s calc(0.3s - var(--t, 0s));
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.carousel-caption:hover {
+  --p: 100%;
+  --t: 0.3s;
+  color: #fff;
+  color: white;
+  font-size: 28px;
+  border-radius: 20px;
+}
+
+.carousel-item > img {
+  border-radius: 10px;
+}
